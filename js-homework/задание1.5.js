@@ -1,5 +1,5 @@
-let input1 = prompt("Введите первое число:");
-let input2 = prompt("Введите второе число:");
+let input1 = prompt("Задание 1.5: Введите первое число:");
+let input2 = prompt("Задание 1.5: Введите второе число:");
 
 let a = Number(input1);
 let b = Number(input2);
@@ -9,7 +9,7 @@ let difference = a - b;
 let product = a * b;
 let quotient = a / b;
 
-alert(
+alert("Задание 1.5:\n" +
   a + " + " + b + " = " + sum + "\n" +
   a + " - " + b + " = " + difference + "\n" +
   a + " * " + b + " = " + product + "\n" +
